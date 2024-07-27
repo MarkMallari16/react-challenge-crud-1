@@ -77,7 +77,7 @@ function App() {
     setSortBy(e.target.value);
   }
   const filteredSellers = sortedSellers.filter((seller) => seller.name.toLowerCase().includes(searchSeller.toLowerCase()));
-  console.log(sortBy)
+
   return (
     <div className='mx-5 lg:mx-20'>
       <div className='flex justify-center '>
